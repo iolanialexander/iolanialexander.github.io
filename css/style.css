@@ -26,19 +26,19 @@ img {
     padding: 1em 2em;
     text-decoration: none;
     background-color: rgba(102, 0, 0, .8);;
-    color: white;
-    border-radius: 5px;
+    color: rgb(37, 197, 50);
+    border-radius: 6px;
 }
 .button:hover {
     background-color: rgba(102, 0, 0, 1);
-    color: white;
+    color: rgb(28, 31, 204);
 }
 .button.dark {
     color: rgba(102, 0, 0, 1);
-    background-color: rgba(255, 255, 255,.8);
+    background-color: rgba(255, 172, 17, 0.8);
 }
 .button.dark:hover {
-    background-color: rgba(255, 255, 255,1);
+    background-color: rgb(196, 243, 26);
 }
 
 /* SITE STRUCTURE */
@@ -182,7 +182,7 @@ aside {
 }
 
 .page-home .hero {
-    /* background-image:url('../images/greenleaves.jpg'); */
+    background-image:url('../images/plant.png'); 
     padding-top: 10em;
 }
 
